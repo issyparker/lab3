@@ -4,6 +4,12 @@
 $(document).ready(function() {
 	initializePage();
 })
+console.log('some_string')
+$('#myElement').click(changeText);
+
+function changeText(event){
+	$(this).text("Changed text");
+}
 
 /*
  * Function that is called when the document is ready.
@@ -15,4 +21,10 @@ function initializePage() {
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
+console.log('some_string')
+$('#myElement').click(changeText);
+
+function changeText(event){
+	$(this).text("Changed text");
+}
 }
